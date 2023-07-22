@@ -1,4 +1,6 @@
 
+//clients -> JsonRpc -> Solana (accounts)
+
 //solana library: webtrade.js 
 const { 
 	clusterApiUrl, 
@@ -20,10 +22,12 @@ async function getBalanceWeb3(address){
 //! ISSUE01: !
 //!^^^^^^^^^^!
 //some pubkeys return 0 balance while it's not 0 on https://explorer.solana.com
+//(Solved: User need to select correct cluster name at upright corner "devnet" at website https://explorer.solana.com) 
 //const publickey = new PublicKey("GontTwDeBduvbW85oHyC8A7GekuT8X1NkZHDDdUWWvsV");
 //const publickey = new PublicKey("2UZMvVTBQR9yWxrEdzEQzXWE61bUjqQ5VpJAGqVb3B19");
 //const publickey = new PublicKey("9cYxjaVKytk8gjQsQ4ZXy6ox62EB5VtVuxGd1zEzCKhH");
-const publickey = new PublicKey("2KgowxogBrGqRcgXQEmqFvC3PGtCu66qERNJevYW8Ajh");
+//const publickey = new PublicKey("2KgowxogBrGqRcgXQEmqFvC3PGtCu66qERNJevYW8Ajh");
+const publickey = new PublicKey("5U3bH5b6XtG99aVWLqwVzYPVpQiFHytBD68Rz2eFPZd7");
 
 
 //fetching balance from solana blockchain.
