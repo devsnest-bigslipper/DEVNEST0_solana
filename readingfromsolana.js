@@ -18,9 +18,9 @@ async function getBalanceWeb3(address){
 //copy publickey from https://explorer.solana.com 
 //How? click slot number for getting into the block page. click transaction signature from a block page and then go to transaction page then copy it...
 
-//!vvvvvvvvvv!
-//! ISSUE01: !
-//!^^^^^^^^^^!
+//!vvvvvvvvvvvvvvvvvv!
+//! ISSUE01:(SOLVED) !
+//!^^^^^^^^^^^^^^^^^^!
 //some pubkeys return 0 balance while it's not 0 on https://explorer.solana.com
 //(Solved: User need to select correct cluster name at upright corner "devnet" at website https://explorer.solana.com) 
 //const publickey = new PublicKey("GontTwDeBduvbW85oHyC8A7GekuT8X1NkZHDDdUWWvsV");

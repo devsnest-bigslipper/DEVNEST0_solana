@@ -73,9 +73,9 @@ async function main() {
 
 main();
 
-//!vvvvvvvvvv!
-//! ISSUE03: !
-//!^^^^^^^^^^!
+//!vvvvvvvvvvvvvvvvvvv!
+//! ISSUE03: (SOLVED) !
+//!^^^^^^^^^^^^^^^^^^^!
 //Cannot air drop 1 SOL to my wallet for testing...
 //Error: airdrop request failed. This can happen when the rate limit is reached.
 //Could use VPN to change ip solving this issue?
@@ -83,3 +83,7 @@ main();
 //prompt:solana balance 5Mc3UvAwAZTfDH34rmt1sW9B78hiyQH8AyAajQSQTwvB 
 //prompt:solana airdrop 1 5Mc3UvAwAZTfDH34rmt1sW9B78hiyQH8AyAajQSQTwvB
 //prompt:solana balance 5Mc3UvAwAZTfDH34rmt1sW9B78hiyQH8AyAajQSQTwvB
+//
+//(Solved)User should specify cluster name
+//solana airdrop 1 94T48XiW5hFUurU2P6KitFZvhu4NsottrATbPG3cTdRM --url devnet
+//solana balance 94T48XiW5hFUurU2P6KitFZvhu4NsottrATbPG3cTdRM --url devnet
